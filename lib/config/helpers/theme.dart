@@ -6,10 +6,10 @@ class AppColors {
   static const primaryTextColor = Color(0xff294060);
   static const disabledPrimaryTextColor = Color.fromARGB(255, 77, 105, 145);
   static const primaryGreTextColor = Color(0xFF666666);
-  static const secondaryColor = Color(0xffffa453);
+  static const secondaryColor = Color(0xff888AF4);
   static const lightOrange = Color(0x84EE9C58);
-  static const darkOrange = Color(0xFFEE9C58);
-  static const darkerSecondaryColor = Color(0xffE2A064);
+  static const darkOrange = Color(0xFF888AF4);
+  static const darkerSecondaryColor = Color(0xff888AF4);
   static const lightSecondaryColor = Color(0x8FF5C59D);
   static const textFieldGray = Color(0xFFEFEFF4);
   static const greyTextColor = Color(0xff7e848d);
