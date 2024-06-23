@@ -15,12 +15,6 @@ abstract class _$AppRouter extends RootStackRouter {
 
   @override
   final Map<String, PageFactory> pagesMap = {
-    CompleteProfileRoute.name: (routeData) {
-      return AutoRoutePage<dynamic>(
-        routeData: routeData,
-        child: const CompleteProfilePage(),
-      );
-    },
     CreateAccountRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
@@ -56,20 +50,6 @@ abstract class _$AppRouter extends RootStackRouter {
       );
     },
   };
-}
-
-/// generated route for
-/// [CompleteProfilePage]
-class CompleteProfileRoute extends PageRouteInfo<void> {
-  const CompleteProfileRoute({List<PageRouteInfo>? children})
-      : super(
-          CompleteProfileRoute.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'CompleteProfileRoute';
-
-  static const PageInfo<void> page = PageInfo<void>(name);
 }
 
 /// generated route for
