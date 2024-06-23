@@ -33,6 +33,7 @@ dev_dependencies:
   riverpod_lint: ^2.3.10
   easy_localization_loader: ^2.0.2
   build_runner: ^2.4.9
+  flutter_gen_runner: ^5.5.0+1
 
 
 flutter:
@@ -42,5 +43,9 @@ flutter:
   assets:
     - assets/translations/
     - assets/svgs/
+    - assets/imgs/
 
-
+flutter_gen:
+  output: lib/generated
+  integrations:
+    flutter_svg: true
