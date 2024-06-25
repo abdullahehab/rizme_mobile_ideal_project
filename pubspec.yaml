@@ -4,41 +4,44 @@ description: "A new Flutter project."
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.3.3 <4.0.0'
+  sdk: ">=3.3.3 <4.0.0"
 
 dependencies:
+  auto_route: 8.0.0
+  cupertino_icons: ^1.0.6
+  dio: ^5.4.3+1
+  easy_localization: ^3.0.7
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
-
-
-  cupertino_icons: ^1.0.6
-  auto_route: 8.0.0
   flutter_riverpod: ^2.5.1
-  dio: ^5.4.3+1
-  laravel_exception: ^0.0.4
   flutter_svg: ^2.0.10+1
-  form_builder_validators: ^9.1.0
-  easy_localization: ^3.0.7
-  shared_preferences: ^2.2.3
   font_awesome_flutter: ^10.7.0
-  pin_code_fields: ^8.0.1
+  form_builder_validators: ^9.1.0
+  laravel_exception: ^0.0.4
   lottie: ^3.1.2
+  permission_handler: ^11.3.1
+  pin_code_fields: ^8.0.1
+  shared_preferences: ^2.2.3
+  wechat_assets_picker: ^9.0.2
+  wechat_camera_picker: ^4.2.1
+  json_annotation: ^4.9.0
+  video_player: ^2.8.3
+  chewie: ^1.7.5
 
 dev_dependencies:
+  auto_route_generator: ^8.0.0
+  build_runner: ^2.4.9
+  easy_localization_loader: ^2.0.2
+  flutter_gen_runner: ^5.5.0+1
+  json_serializable: ^6.8.0
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^3.0.0
-  auto_route_generator: ^8.0.0
   riverpod_lint: ^2.3.10
-  easy_localization_loader: ^2.0.2
-  build_runner: ^2.4.9
-  flutter_gen_runner: ^5.5.0+1
-
 
 flutter:
   uses-material-design: true
-
 
   assets:
     - assets/translations/
