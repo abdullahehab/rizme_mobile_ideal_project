@@ -27,6 +27,7 @@ class AppColors {
   static const holdSeatColor = Color(0xFFAEBAD2);
   static const green = Color(0xFF24A604);
   static const liteWhite = Color(0xFFC7C7C7);
+  static const loginGrey = Color(0xFF8A8A8F);
 }
 
 ThemeData appTheme(Locale locale) {
