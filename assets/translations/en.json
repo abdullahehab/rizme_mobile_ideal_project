@@ -174,5 +174,11 @@
     "selectStoppingPoints": "Choose stopping Points",
     "resetToDefault": "Reset to default",
     "yourBalanceIsNotEnough": "Your balance is not enough",
-    "remainingWalletBalance": "Remaining wallet balance"
+    "remainingWalletBalance": "Remaining wallet balance",
+    "videoPlayer": "Video Player",
+    "imagesText": "Images",
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "home": "Home",
+    "popular": "Popular"
 }

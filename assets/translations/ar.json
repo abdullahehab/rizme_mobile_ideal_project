@@ -177,5 +177,11 @@
     "selectStoppingPoints": "اختر محطات التوقف",
     "resetToDefault": "إعادة تعيين",
     "yourBalanceIsNotEnough": "رصيد المحفظة غير كافي",
-    "remainingWalletBalance": "رصيد المحفظة المتبقي"
+    "remainingWalletBalance": "رصيد المحفظة المتبقي",
+    "videoPlayer": "عرض الفيديو",
+    "imagesText": "الصور",
+    "readMore": "المزيد",
+    "readLess": "إخفاء",
+    "home": "الرئيسية",
+    "popular": "رائج الآن"
 }
