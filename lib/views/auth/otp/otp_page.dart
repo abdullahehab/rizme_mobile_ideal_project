@@ -13,6 +13,7 @@ import '../../../config/helpers/constants.dart';
 import '../../../config/helpers/context_extensions.dart';
 import '../../../config/helpers/snackbars.dart';
 import '../../../config/helpers/theme.dart';
+import '../../../config/routers/router.dart';
 import '../../../generated/localization.dart';
 
 @RoutePage()
@@ -68,6 +69,7 @@ class _OTPPageState extends ConsumerState<OTPPage> {
 
   Future<void> verifyPhone() async {
     if (!_formKey.currentState!.validate()) return;
+    router.pushAndPopUntil(const HomeRoute(), predicate: (_) => false);
   }
 
   Future<void> resend() async {
