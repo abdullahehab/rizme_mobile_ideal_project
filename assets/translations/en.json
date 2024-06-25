@@ -27,7 +27,7 @@
     "verify": "Verify",
     "didNotReceiveOtp": "Didn't receive the OTP ? ",
     "resend": "Resend",
-    "complete_profile": "Complete Profile",
+    "completeProfile": "Complete Profile",
     "email": "Email",
     "dOB": "Birthday",
     "gander": "Gander",
