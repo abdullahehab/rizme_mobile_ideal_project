@@ -27,8 +27,8 @@ void main() async {
     EasyLocalization(
       supportedLocales: const [arabicLocale, englishLocale],
       path: 'assets/translations',
-      fallbackLocale: arabicLocale,
-      startLocale: arabicLocale,
+      fallbackLocale: englishLocale,
+      startLocale: englishLocale,
       assetLoader: const CodegenLoader(),
       child: ProviderScope(
         overrides: overrides,
