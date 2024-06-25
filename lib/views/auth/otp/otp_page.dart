@@ -5,14 +5,15 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
-import 'package:mobile_ideal_project/components/auth_app_bar.dart';
-import 'package:mobile_ideal_project/components/default_button.dart';
-import 'package:mobile_ideal_project/components/pin_code_field.dart';
-import 'package:mobile_ideal_project/config/helpers/constants.dart';
-import 'package:mobile_ideal_project/config/helpers/context_extensions.dart';
-import 'package:mobile_ideal_project/config/helpers/snackbars.dart';
-import 'package:mobile_ideal_project/config/helpers/theme.dart';
-import 'package:mobile_ideal_project/generated/localization.dart';
+
+import '../../../components/auth_app_bar.dart';
+import '../../../components/default_button.dart';
+import '../../../components/pin_code_field.dart';
+import '../../../config/helpers/constants.dart';
+import '../../../config/helpers/context_extensions.dart';
+import '../../../config/helpers/snackbars.dart';
+import '../../../config/helpers/theme.dart';
+import '../../../generated/localization.dart';
 
 @RoutePage()
 class OTPPage extends ConsumerStatefulWidget {
@@ -74,7 +75,7 @@ class _OTPPageState extends ConsumerState<OTPPage> {
     try {
       changeLoading(true);
       _start = 60;
-      final phone = widget.phone;
+      // final phone = widget.phone;
       // final message = await ref.read(authServiceProvider).sendOTP(phone: phone);
       if (!mounted) return;
       unawaited(showSuccessSnackBar(context, 'success'));

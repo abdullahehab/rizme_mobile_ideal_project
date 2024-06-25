@@ -1,15 +1,13 @@
-import 'package:flutter/material.dart';
-
 import 'package:easy_logger/easy_logger.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:form_builder_validators/localization/l10n.dart';
-import 'package:mobile_ideal_project/boot.dart';
-import 'package:mobile_ideal_project/config/routers/router.dart';
-import 'package:mobile_ideal_project/generated/localization.dart';
-import 'package:mobile_ideal_project/config/helpers/theme.dart';
+
+import 'boot.dart';
+import 'config/helpers/theme.dart';
+import 'config/routers/router.dart';
+import 'generated/localization.dart';
 
 void main() async {
   final overrides = await getOverrides();

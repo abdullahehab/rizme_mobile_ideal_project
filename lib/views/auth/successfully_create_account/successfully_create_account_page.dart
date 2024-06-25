@@ -2,20 +2,20 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lottie/lottie.dart';
-import 'package:mobile_ideal_project/components/default_button.dart';
-import 'package:mobile_ideal_project/config/helpers/assets.dart';
-import 'package:mobile_ideal_project/config/helpers/constants.dart';
-import 'package:mobile_ideal_project/config/helpers/context_extensions.dart';
-import 'package:mobile_ideal_project/config/helpers/theme.dart';
-import 'package:mobile_ideal_project/generated/localization.dart';
+
+import '../../../components/default_button.dart';
+import '../../../config/helpers/assets.dart';
+import '../../../config/helpers/constants.dart';
+import '../../../config/helpers/context_extensions.dart';
+import '../../../config/helpers/theme.dart';
+import '../../../generated/localization.dart';
 
 @RoutePage()
 class SuccessfullyCreateAccountPage extends ConsumerStatefulWidget {
   const SuccessfullyCreateAccountPage({super.key});
 
   @override
-  ConsumerState<SuccessfullyCreateAccountPage> createState() =>
-      _CreateAccountState();
+  ConsumerState<SuccessfullyCreateAccountPage> createState() => _CreateAccountState();
 }
 
 class _CreateAccountState extends ConsumerState<SuccessfullyCreateAccountPage> {
@@ -44,8 +44,7 @@ class _CreateAccountState extends ConsumerState<SuccessfullyCreateAccountPage> {
                       ),
                       const SizedBox(height: 10),
                       Text(
-                        LocaleKeys.afterThisYouCanExploreAnyPlaceYouWantEnjoy
-                            .tr(),
+                        LocaleKeys.afterThisYouCanExploreAnyPlaceYouWantEnjoy.tr(),
                         textAlign: TextAlign.center,
                         style: context.theme.bodyMedium!.copyWith(
                           color: AppColors.primaryTextColor,

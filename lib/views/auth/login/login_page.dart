@@ -1,19 +1,18 @@
 import 'dart:async';
-import 'dart:io';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mobile_ideal_project/components/default_button.dart';
-import 'package:mobile_ideal_project/components/keyboard_dismissal.dart';
-import 'package:mobile_ideal_project/components/phone_text_field.dart';
-import 'package:mobile_ideal_project/config/helpers/context_extensions.dart';
-import 'package:mobile_ideal_project/config/helpers/snackbars.dart';
-import 'package:mobile_ideal_project/config/helpers/theme.dart';
-import 'package:mobile_ideal_project/config/routers/router.dart';
-import 'package:mobile_ideal_project/generated/localization.dart';
+
+import '../../../components/default_button.dart';
+import '../../../components/keyboard_dismissal.dart';
+import '../../../components/phone_text_field.dart';
+import '../../../config/helpers/context_extensions.dart';
+import '../../../config/helpers/snackbars.dart';
+import '../../../config/helpers/theme.dart';
+import '../../../config/routers/router.dart';
+import '../../../generated/localization.dart';
 
 @RoutePage()
 class LoginPage extends ConsumerStatefulWidget {

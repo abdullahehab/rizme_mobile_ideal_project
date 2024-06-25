@@ -5,16 +5,17 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
-import 'package:mobile_ideal_project/components/auth_app_bar.dart';
-import 'package:mobile_ideal_project/components/default_button.dart';
-import 'package:mobile_ideal_project/components/default_text_field.dart';
-import 'package:mobile_ideal_project/components/keyboard_dismissal.dart';
-import 'package:mobile_ideal_project/components/phone_text_field.dart';
-import 'package:mobile_ideal_project/config/helpers/constants.dart';
-import 'package:mobile_ideal_project/config/helpers/context_extensions.dart';
-import 'package:mobile_ideal_project/config/helpers/textfields_helpers.dart';
-import 'package:mobile_ideal_project/config/helpers/theme.dart';
-import 'package:mobile_ideal_project/generated/localization.dart';
+
+import '../../../components/auth_app_bar.dart';
+import '../../../components/default_button.dart';
+import '../../../components/default_text_field.dart';
+import '../../../components/keyboard_dismissal.dart';
+import '../../../components/phone_text_field.dart';
+import '../../../config/helpers/constants.dart';
+import '../../../config/helpers/context_extensions.dart';
+import '../../../config/helpers/textfields_helpers.dart';
+import '../../../config/helpers/theme.dart';
+import '../../../generated/localization.dart';
 
 @RoutePage()
 class CreateAccountPage extends ConsumerStatefulWidget {
